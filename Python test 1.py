@@ -73,7 +73,7 @@ class Artist:
 
 class Entrepreneur:
     def struggle(self, callback):
-        print("Son: Tried my best...But Failed")
+        print("Son: Tried my best...But Succeeded!")
         return True
 
 
@@ -84,4 +84,5 @@ careers = [Engineer(), Artist(), Entrepreneur()]
 for career in careers:
     if career.struggle(mother.continues_love_and_support):
         mother.happytears()
+
         break
